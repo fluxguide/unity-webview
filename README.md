@@ -1,3 +1,5 @@
+# This is a fluxguide fork of https://github.com/gree/unity-webview
+
 # unity-webview
 
 unity-webview is a plugin for Unity 5 that overlays WebView components
@@ -30,7 +32,7 @@ the following entry in your `Packages/manifest.json`:
 {
   "dependencies": {
     ...
-    "net.gree.unity-webview": "https://github.com/gree/unity-webview.git?path=/dist/package",
+    "net.gree.unity-webview": "https://github.com/fluxguide/unity-webview.git?path=/dist/package",
     ...
   }
 }
@@ -42,7 +44,7 @@ or the following for selecting the variant without Fragment:
 {
   "dependencies": {
     ...
-    "net.gree.unity-webview": "https://github.com/gree/unity-webview.git?path=/dist/package-nofragment",
+    "net.gree.unity-webview": "https://github.com/fluxguide/unity-webview?path=/dist/package-nofragment",
     ...
   }
 }
